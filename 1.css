@@ -1,0 +1,48 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  background: #ffffff;
+  *zoom: 1;
+}
+.container,
+section,
+aside {
+
+}
+section{
+  background: blue;
+  color: blue;
+  margin: 1.858736059%;
+  padding: 20px 0;
+  text-align: center;
+}
+aside {
+  background: red;
+  color: red;
+  margin: 1.858736059%;
+  padding: 20px 0;
+  text-align: center;
+}
+@media all and (min-width: 420px) { -->
+  .container {
+    max-width: 538px;
+  }
+  section {
+    float: left;
+    width: 63.197026%;
+  }
+  aside {
+	background: red;
+    float: right;
+    width: 29.3680297%;
+  }
+}
